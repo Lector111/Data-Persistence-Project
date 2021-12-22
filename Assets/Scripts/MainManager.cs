@@ -96,4 +96,9 @@ public class MainManager : MonoBehaviour
 
         }
     }
+
+    public void MainMenuButtonClick()
+    {
+        SceneManager.LoadScene("menu");
+    }
 }

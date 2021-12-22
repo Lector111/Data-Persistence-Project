@@ -30,6 +30,11 @@ public class MenuUI : MonoBehaviour
         #endif
     }
 
+    public void ScoreButtonClick()
+    {
+        SceneManager.LoadScene("score");
+    }
+
     void Start()
     {
         var parameter = DataManager.Instance.CurrentParameters;
